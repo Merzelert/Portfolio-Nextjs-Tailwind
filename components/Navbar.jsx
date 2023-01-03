@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16 bg-[#ecf0f3]'>
                 <Link href='/#home' scroll={false}>
-                    <Image src='/../public/assets/1280px-ER_logo.svg.png' alt='/' width='125' height='50' />
+                    <Image src='/../public/assets/1280px-ER_logo.svg.png' alt='/' width={125} height={50} />
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>
