@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import {logoImg} from '/../public/assets/1280px-ER_logo.svg.png'
+import {logoImg} from '../public/assets/projects/1280px-ER_logo.svg.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16 bg-[#ecf0f3]'>
                 <Link href='/#home' scroll={false}>
-                    <Image src={logoImg} alt='/' width={125} height={50} />
+                    <Image src='/../public/assets/projects/1280px-ER_logo.svg.png' width={125} height={50} alt='/'/>
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link onClick={() => setNav(false)} scroll={false} href='/#home'>
-                                <Image src='/../public/assets/1280px-ER_logo.svg.png' width='87' height='35' alt='/' />
+                                <Image src='/../public/assets/projects/1280px-ER_logo.svg.png' width={87} height={35} alt='/' />
                             </Link>
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gr p-3 cursor-pointer'>
                                 <AiOutlineClose />
