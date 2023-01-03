@@ -12,12 +12,12 @@ const Projects = () => {
         <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-2 py-16'>
                 <p className='text-3xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
-                <h2 className='py-4'>What I&apos;ve Built</h2>
+                <h2 className='py-2'>What I&apos;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
 
                     <ProjectItem title='Countries (SPA)' backgroundImg={countriesImg} projectUrl='/countries' tech='React | CSS | Node | PostgreSQL | Sequelize | Redux'/>
-                    <ProjectItem title='Mymanga (e-commerce)' backgroundImg={mangaImg} projectUrl='/mymanga' tech='React | Tailwind | Node | PostgreSQL | Firebase | Sequelize | React-Form | Stripe | Redux'/>
+                    <ProjectItem title='Mymanga' backgroundImg={mangaImg} projectUrl='/mymanga' tech='React | Tailwind | Sequelize | Formik | Stripe | Redux'/>
                     <ProjectItem title='Portfolio' backgroundImg={portfolioImg} projectUrl='/portfolio' tech='React | NextJS | Tailwind'/>
                     <ProjectItem title='Batatabit' backgroundImg={batataImg} projectUrl='/batatabit' tech='HTML | CSS' />
 

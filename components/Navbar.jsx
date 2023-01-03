@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Navbar = () => {
@@ -26,25 +26,25 @@ const Navbar = () => {
 
     return (
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Link href='#home' scroll={false}>
+            <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16 bg-[#ecf0f3]'>
+                <Link href='/#home' scroll={false}>
                     <Image src='/../public/assets/1280px-ER_logo.svg.png' alt='/' width='125' height='50' />
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href='#home' scroll={false}>
+                        <Link href='/#home' scroll={false}>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                         </Link>
-                        <Link href='#about' scroll={false}>
+                        <Link href='/#about' scroll={false}>
                             <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                         </Link>
-                        <Link href='#skills' scroll={false}>
+                        <Link href='/#skills' scroll={false}>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                         </Link>
-                        <Link href='#projects' scroll={false}>
+                        <Link href='/#projects' scroll={false}>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                         </Link>
-                        <Link href='#contact' scroll={false}>
+                        <Link href='/#contact' scroll={false}>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                         </Link>
                     </ul>
@@ -63,7 +63,9 @@ const Navbar = () => {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/1280px-ER_logo.svg.png' width='87' height='35' alt='/' />
+                            <Link onClick={() => setNav(false)} scroll={false} href='/#home'>
+                                <Image src='/../public/assets/1280px-ER_logo.svg.png' width='87' height='35' alt='/' />
+                            </Link>
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gr p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
@@ -74,36 +76,36 @@ const Navbar = () => {
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
-                            <Link href='#home'>
-                                <li className='py-4 text-sm'>Home</li>
+                            <Link href='/#home' scroll={false}>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
                             </Link>
-                            <Link href='#about'>
-                                <li className='py-4 text-sm'>About</li>
+                            <Link href='/#about' scroll={false}>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>About</li>
                             </Link>
-                            <Link href='#skills'>
-                                <li className='py-4 text-sm'>Skills</li>
+                            <Link href='/#skills' scroll={false}>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
                             </Link>
-                            <Link href='#projects'>
-                                <li className='py-4 text-sm'>Projects</li>
+                            <Link href='/#projects' scroll={false}>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
                             </Link>
-                            <Link href='#contact'>
-                                <li className='py-4 text-sm'>Contact</li>
+                            <Link href='/#contact' scroll={false}>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn />
+                                    <a href="https://www.linkedin.com/in/erik-retana-webdev/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub />
+                                    <a href="https://github.com/Merzelert" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail />
+                                    <a href="https://twitter.com/merzelert" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
+                                    <a onClick={() => window.location = 'mailto:merzelert@gmail.com'} target="_blank"><AiOutlineMail /></a>
                                 </div>
                             </div>
                         </div>
