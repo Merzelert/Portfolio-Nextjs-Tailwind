@@ -106,7 +106,7 @@ const Navbar = () => {
                                     <a href="https://twitter.com/merzelert" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <a onClick={() => window.location = 'mailto:merzelert@gmail.com'} target="_blank"><AiOutlineMail /></a>
+                                    <a onClick={() => window.location = 'mailto:erik.retana.lopez@gmail.com'} target="_blank"><AiOutlineMail /></a>
                                 </div>
                             </div>
                         </div>

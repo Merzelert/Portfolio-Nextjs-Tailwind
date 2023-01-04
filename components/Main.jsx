@@ -24,7 +24,7 @@ const Main = () => {
                             <a href="https://github.com/Merzelert" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <a onClick={() => window.location = 'mailto:merzelert@gmail.com'} target="_blank"><AiOutlineMail /></a>
+                            <a onClick={() => window.location = 'mailto:erik.retana.lopez@gmail.com'} target="_blank"><AiOutlineMail /></a>
 
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

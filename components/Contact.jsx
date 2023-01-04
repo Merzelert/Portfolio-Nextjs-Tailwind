@@ -20,7 +20,7 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2 mt-4'>Erik Retana</h2>
                                 <p>Full-Stack Web Developer</p>
-                                <p>merzelert@gmail.com</p>
+                                <p>erik.retana.lopez@gmail.com</p>
                                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
                             </div>
                             <div>
@@ -33,7 +33,7 @@ const Contact = () => {
                                         <a href="https://github.com/Merzelert" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <a onClick={() => window.location = 'mailto:merzelert@gmail.com'} target="_blank"><AiOutlineMail /></a>
+                                    <a onClick={() => window.location = 'mailto:erik.retana.lopez@gmail.com'} target="_blank"><AiOutlineMail /></a>
                                         
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
