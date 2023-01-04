@@ -19,7 +19,7 @@ const Projects = () => {
                     <ProjectItem title='Countries' backgroundImg={countriesImg} projectUrl='/countries' tech='React | CSS | Node | PostgreSQL | Sequelize | Redux'/>
                     <ProjectItem title='Mymanga' backgroundImg={mangaImg} projectUrl='/mymanga' tech='React | Tailwind | Sequelize | Formik | Stripe | Redux'/>
                     <ProjectItem title='Portfolio' backgroundImg={portfolioImg} projectUrl='/portfolio' tech='React | NextJS | Tailwind'/>
-                    <ProjectItem title='Batatabit' backgroundImg={batataImg} projectUrl='/batatabit' tech='HTML | CSS' />
+                    <ProjectItem title='Batatabit' backgroundImg={batataImg} projectUrl='/batatabit' tech='HTML | CSS| Figma' />
 
                 </div>
             </div>

@@ -21,7 +21,8 @@ const mymanga = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2 className='pb-3 tracking-widest text-[#5651e5]'>Overview</h2>
-                    <p>This app was build using React JS. Users are able to search countries based on population, activites or continent. You will be able to create different activities with difficult, season and duration. User authentication is available with Google  this is possible with Firebase</p>
+                    <p>This fullstack app was created with React, it was carried out during the learning process in soyHenry`s bootcamp, it is an E-commerce with a manga theme, which covered all the tech requirements with SCRUM methodology in React, HTML, Node.js , Express, Sequelize,
+PostgreSQL, Firebase, Formik, Stripe and JavaScript, the user is able to create their account, log-in, view every detail of the manga, add to the shopping cart, make the payment through Stripe, be notified via email of your purchase and later I was able to make a review of the items you have purchased, it has a dark mode. <br /> As administrator you can create new items for e-commerce, edit existing items, create promotions that will be impacted in a carousel on the main page, delete users, observability was added with New Relic.</p>
                     <button className='px-8 py-2 mt-4 mr-8'><a href="https://mymangastore.netlify.app" target="_blank" rel="noopener noreferrer">Demo</a></button>
                     <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/IvanaSDW/pf_with_vite" target="_blank" rel="noopener noreferrer">Code</a></button>
                 </div>

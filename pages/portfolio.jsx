@@ -21,7 +21,7 @@ const portfolio = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2 className='pb-3 tracking-widest text-[#5651e5]'>Overview</h2>
-                    <p>This app was build using React JS. Users are able to search countries based on population, activites or continent. You will be able to create different activities with difficult, season and duration. User authentication is available with Google  this is possible with Firebase</p>
+                    <p>This app was built with Next.js which gives you the best React.js development experience with all the features needed for production like Client Side Rendering, Server Side Rendering, Static Site Generation (ESG) and was deployed to Production with Vercel. In order to create a portfolio where the user can learn about me, my projects and contact me for future collaborations or new work projects.</p>
                     <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/Merzelert/Portfolio-Nextjs-Tailwind" target="_blank" rel="noopener noreferrer">Code</a></button>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>

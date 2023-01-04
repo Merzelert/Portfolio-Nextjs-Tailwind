@@ -13,7 +13,7 @@ const batatabit = () => {
 
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50px] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className='py-2'>Batatabit</h2>
-                    <h3>HTML | CSS</h3>
+                    <h3>HTML | CSS | Figma</h3>
                 </div>
             </div>
 
@@ -21,7 +21,9 @@ const batatabit = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2 className='pb-3 tracking-widest text-[#5651e5]'>Overview</h2>
-                    <p>This app was build using React JS. Users are able to search countries based on population, activites or continent. You will be able to create different activities with difficult, season and duration. User authentication is available with Google  this is possible with Firebase</p>
+                    <p>50% of Internet traffic is carried out from mobile devices, making frontend development for smartphones, tablets and laptops a priority. With the development of this application, we learned what was necessary to create projects that adapt to the different views that users use.
+                        <br />
+                        Styles were applied with pure CSS that can be reused, media queries to adapt device views and the architecture of the project was analyzed starting from a wireframe thanks to Figma</p>
                     <button className='px-8 py-2 mt-4 mr-8'><a href="https://merzelert.github.io/batata-bit/" target="_blank" rel="noopener noreferrer">Demo</a></button>
                     <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/Merzelert/batata-bit" target="_blank" rel="noopener noreferrer">Code</a></button>
                 </div>
@@ -29,12 +31,9 @@ const batatabit = () => {
                     <div className='p-2'>
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>React</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Node</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Javascript</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Sequelize</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Redux</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>PosgreSQL</p>
+                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>HTML</p>
+                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>CSS</p>
+                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Figma</p>
                         </div>
                     </div>
                 </div>
