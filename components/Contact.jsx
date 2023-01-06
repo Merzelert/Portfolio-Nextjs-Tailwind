@@ -87,7 +87,7 @@ const Contact = () => {
                     </Link>
                 </div>
                 <div>
-                    <p className='text-sm text-center tracking-widest uppercase text-[#5651e5]'>Created with love in NextJS</p>
+                    <p className='text-sm text-center tracking-widest uppercase text-[#5651e5]'>Created with 💜 in NextJS</p>
                 </div>
             </div>
         </div>
