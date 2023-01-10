@@ -14,7 +14,7 @@ const Contact = () => {
                 <h2 className='py-2'>Get In Touch</h2>
                 <div className='grid lg:grid-cols-5 gap-8'>
 
-                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>
 
                             <div>
@@ -45,7 +45,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 lg:p-6'>
+                    <div className='col-span-3 w-full h-auto shadow-lg shadow-gray-400 lg:p-6'>
                         <div>
                             <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/assets/contact2.jpeg' width='690' height='550' alt='/' />
                         </div>
